@@ -6,11 +6,8 @@ body {
   font-family: "Roboto", sans-serif;
 }
 .container {
-    display: flex;
-    flex-direction: ;
-    
-    align-items: center;
-   
+  display: flex;
+  align-items: center;
 }
 .header {
   color: #f9faf8;
@@ -21,10 +18,8 @@ body {
   justify-content: space-between;
   padding-left: 350px;
   padding-right: 350px;
-  
+
   padding-top: 16px;
-  
-  
 }
 .hero {
   font-size: 24px;
@@ -44,18 +39,109 @@ a {
   justify-content: space-between;
   padding-left: 350px;
   padding-right: 350px;
-  
-  
-  
 }
 .head-text {
   max-width: 350px;
+}
+.text1 {
+  font-weight: bold;
+  font-size: 48px;
+}
+.text2 {
+  font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 8px;
+}
+
+.img1 {
+  display: flex;
+  width: 550px;
+  height: 250px;
+  justify-content: flex-end;
+}
+.button1 {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 5px;
+  width: 75px;
+}
+/* Info */
+.middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.info {
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
   
+}
+.infotext {
+  display: flex;
+  width: 25px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 125px;
+}
+.infopic {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  margin: 15px  
 }
-img {
-  max-width: 400px;
-  max-height: 250px;
+
+.img2  {
+  width: 220px;
+  height: 150px;
+  border-radius: 10px;
+  border: 2px solid;
+  border-color: #1f2937;
+}
+.quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #E5E7EB;
+  height: 300px;
+}
+.theqoute {
+  font-style: italic;
+  font-size: 36px;
+  padding: 20px
+
+}
+.author {
+  display: flex;
+  font-weight:900;
+  padding-left: 850px;
+}
+.box {
+  display: flex;
+  height: 250px;
+  justify-content: center;
+  flex-direction: column;
+}
+.textInBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  background-color: #3882f6;
+  height: 100px;
+  margin-left: 350px;
+  margin-right: 350px;
+  border-radius: 10px;
+
+}
+.button2 {
+  background-color: #3882f6;
+  color: white;
+  border-color: white;
+  border-radius: 5px;
+  width: 75px;
 }
