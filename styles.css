@@ -96,11 +96,10 @@ h2 {
   display: flex;
   flex-direction: column;
   margin-top: 25px;
-  margin-bottom: 75px; 
-  margin: 25px; 
+  margin-bottom: 75px;
+  margin: 25px;
 }
-
-.img2  {
+.img2 {
   width: 220px;
   height: 150px;
   border-radius: 10px;
@@ -112,18 +111,17 @@ h2 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #E5E7EB;
+  background-color: #e5e7eb;
   height: 300px;
 }
 .theqoute {
   font-style: italic;
   font-size: 36px;
-  padding: 20px
-
+  padding: 20px;
 }
 .author {
   display: flex;
-  font-weight:900;
+  font-weight: 900;
   padding-left: 850px;
 }
 .box {
@@ -142,7 +140,6 @@ h2 {
   margin-left: 350px;
   margin-right: 350px;
   border-radius: 10px;
-
 }
 .button2 {
   background-color: #3882f6;
@@ -158,5 +155,4 @@ h2 {
   align-items: center;
   justify-content: center;
   height: 75px;
-
 }
