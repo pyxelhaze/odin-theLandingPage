@@ -72,26 +72,32 @@ a {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  height: 500px;
 }
 .info {
   display: flex;
   align-items: center;
-
   justify-content: center;
-  
+  margin-top: 75px;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 900;
 }
 .infotext {
   display: flex;
-  width: 25px;
-  padding: 20px;
+  width: 200px;
+  padding-top: 20px;
   align-items: center;
   justify-content: center;
-  padding-left: 125px;
+  padding-left: 15px;
 }
 .infopic {
   display: flex;
   flex-direction: column;
-  margin: 15px  
+  margin-top: 25px;
+  margin-bottom: 75px; 
+  margin: 25px; 
 }
 
 .img2  {
@@ -144,4 +150,13 @@ a {
   border-color: white;
   border-radius: 5px;
   width: 75px;
+}
+.footer {
+  color: #f9faf8;
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75px;
+
 }
